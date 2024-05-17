@@ -14,7 +14,7 @@ export default function Search() {
         e.preventDefault();
         try {
             const res = await fetch(
-                `http://localhost:5000/getUser/${user}`
+                `http://localhost:5000/user/${user}`
             );
             const result = await res.json();
             changeInfo(result);
