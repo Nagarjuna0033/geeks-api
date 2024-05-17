@@ -26,7 +26,7 @@
       "problems": []
     },
     "easy": {
-      "count": 15,
+      "count": 2,
       "problems": [
         {
           "problem": "String's Count",
