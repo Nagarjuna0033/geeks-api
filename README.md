@@ -1,5 +1,6 @@
 ### Sample API Responses
 ## Success Response
+```json
 {
   "info": {
     "profile": "https://www.geeksforgeeks.org",
@@ -52,9 +53,10 @@
     }
   }
 }
-
+```
 ### error response
-
+```json
 {
   error: "profile not found"
 }
+```
